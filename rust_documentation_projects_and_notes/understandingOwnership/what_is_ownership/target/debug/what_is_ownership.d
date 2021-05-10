@@ -1,0 +1,1 @@
+/home/ruby/projects/AdventuresInRust/rust_documentation_projects_and_notes/understandingOwnership/what_is_ownership/target/debug/what_is_ownership: /home/ruby/projects/AdventuresInRust/rust_documentation_projects_and_notes/understandingOwnership/what_is_ownership/src/main.rs
