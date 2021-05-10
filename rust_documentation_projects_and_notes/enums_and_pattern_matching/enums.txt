@@ -1,0 +1,10 @@
+it's kinda hard to explain these, they're kinda like ... idk ... basically, an enum is a collection of related things, sorta like an interface maybe? mmm
+honestly, just read the documentation if you forget
+
+also, rust's version of null is an Option enum
+here's the documentation
+file:///home/ruby/.rustup/toolchains/stable-x86-unknown-linux-gnu/share/doc/rust/html/std/option/enum.Option.html
+sorta
+
+... uhh, basically, use Option<T> when you don't know if your variable will have a value or be null
+
