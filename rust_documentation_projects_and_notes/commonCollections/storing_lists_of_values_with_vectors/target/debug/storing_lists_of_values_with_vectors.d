@@ -1,0 +1,1 @@
+/home/ruby/projects/AdventuresInRust/rust_documentation_projects_and_notes/Common_Collections/storing_lists_of_values_with_vectors/target/debug/storing_lists_of_values_with_vectors: /home/ruby/projects/AdventuresInRust/rust_documentation_projects_and_notes/Common_Collections/storing_lists_of_values_with_vectors/src/main.rs

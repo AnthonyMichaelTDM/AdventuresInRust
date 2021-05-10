@@ -1,5 +1,0 @@
-/home/ruby/projects/AdventuresInRust/rust_documentation_projects_and_notes/using_structs_to_structure_related_data/defining_and_instanciating_structs/target/rls/debug/deps/defining_and_instanciating_structs-29a6ca50a161871a.rmeta: src/main.rs
-
-/home/ruby/projects/AdventuresInRust/rust_documentation_projects_and_notes/using_structs_to_structure_related_data/defining_and_instanciating_structs/target/rls/debug/deps/defining_and_instanciating_structs-29a6ca50a161871a.d: src/main.rs
-
-src/main.rs:
