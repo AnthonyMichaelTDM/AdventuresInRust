@@ -1,0 +1,12 @@
+/home/ruby/projects/AdventuresInRust/rust_documentation_projects_and_notes/projects/vector_data_analysis/target/release/deps/rand_core-af8ea7abae01699d.rmeta: /home/ruby/.cargo/registry/src/github.com-1ecc6299db9ec823/rand_core-0.6.2/src/lib.rs /home/ruby/.cargo/registry/src/github.com-1ecc6299db9ec823/rand_core-0.6.2/src/block.rs /home/ruby/.cargo/registry/src/github.com-1ecc6299db9ec823/rand_core-0.6.2/src/error.rs /home/ruby/.cargo/registry/src/github.com-1ecc6299db9ec823/rand_core-0.6.2/src/impls.rs /home/ruby/.cargo/registry/src/github.com-1ecc6299db9ec823/rand_core-0.6.2/src/le.rs /home/ruby/.cargo/registry/src/github.com-1ecc6299db9ec823/rand_core-0.6.2/src/os.rs
+
+/home/ruby/projects/AdventuresInRust/rust_documentation_projects_and_notes/projects/vector_data_analysis/target/release/deps/librand_core-af8ea7abae01699d.rlib: /home/ruby/.cargo/registry/src/github.com-1ecc6299db9ec823/rand_core-0.6.2/src/lib.rs /home/ruby/.cargo/registry/src/github.com-1ecc6299db9ec823/rand_core-0.6.2/src/block.rs /home/ruby/.cargo/registry/src/github.com-1ecc6299db9ec823/rand_core-0.6.2/src/error.rs /home/ruby/.cargo/registry/src/github.com-1ecc6299db9ec823/rand_core-0.6.2/src/impls.rs /home/ruby/.cargo/registry/src/github.com-1ecc6299db9ec823/rand_core-0.6.2/src/le.rs /home/ruby/.cargo/registry/src/github.com-1ecc6299db9ec823/rand_core-0.6.2/src/os.rs
+
+/home/ruby/projects/AdventuresInRust/rust_documentation_projects_and_notes/projects/vector_data_analysis/target/release/deps/rand_core-af8ea7abae01699d.d: /home/ruby/.cargo/registry/src/github.com-1ecc6299db9ec823/rand_core-0.6.2/src/lib.rs /home/ruby/.cargo/registry/src/github.com-1ecc6299db9ec823/rand_core-0.6.2/src/block.rs /home/ruby/.cargo/registry/src/github.com-1ecc6299db9ec823/rand_core-0.6.2/src/error.rs /home/ruby/.cargo/registry/src/github.com-1ecc6299db9ec823/rand_core-0.6.2/src/impls.rs /home/ruby/.cargo/registry/src/github.com-1ecc6299db9ec823/rand_core-0.6.2/src/le.rs /home/ruby/.cargo/registry/src/github.com-1ecc6299db9ec823/rand_core-0.6.2/src/os.rs
+
+/home/ruby/.cargo/registry/src/github.com-1ecc6299db9ec823/rand_core-0.6.2/src/lib.rs:
+/home/ruby/.cargo/registry/src/github.com-1ecc6299db9ec823/rand_core-0.6.2/src/block.rs:
+/home/ruby/.cargo/registry/src/github.com-1ecc6299db9ec823/rand_core-0.6.2/src/error.rs:
+/home/ruby/.cargo/registry/src/github.com-1ecc6299db9ec823/rand_core-0.6.2/src/impls.rs:
+/home/ruby/.cargo/registry/src/github.com-1ecc6299db9ec823/rand_core-0.6.2/src/le.rs:
+/home/ruby/.cargo/registry/src/github.com-1ecc6299db9ec823/rand_core-0.6.2/src/os.rs:
