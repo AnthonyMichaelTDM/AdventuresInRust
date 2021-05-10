@@ -1,0 +1,5 @@
+/home/ruby/projects/AdventuresInRust/rust_documentation_projects_and_notes/using_structs_to_structure_related_data/defining_and_instanciating_structs/target/debug/deps/defining_and_instanciating_structs-ca1a3e247d65526b: src/main.rs
+
+/home/ruby/projects/AdventuresInRust/rust_documentation_projects_and_notes/using_structs_to_structure_related_data/defining_and_instanciating_structs/target/debug/deps/defining_and_instanciating_structs-ca1a3e247d65526b.d: src/main.rs
+
+src/main.rs:
