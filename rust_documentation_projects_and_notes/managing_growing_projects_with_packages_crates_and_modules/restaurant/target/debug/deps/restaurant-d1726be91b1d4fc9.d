@@ -1,0 +1,7 @@
+/home/ruby/projects/AdventuresInRust/rust_documentation_projects_and_notes/managing_growing_projects_with_packages_crates_and_modules/restaurant/target/debug/deps/restaurant-d1726be91b1d4fc9.rmeta: src/lib.rs
+
+/home/ruby/projects/AdventuresInRust/rust_documentation_projects_and_notes/managing_growing_projects_with_packages_crates_and_modules/restaurant/target/debug/deps/librestaurant-d1726be91b1d4fc9.rlib: src/lib.rs
+
+/home/ruby/projects/AdventuresInRust/rust_documentation_projects_and_notes/managing_growing_projects_with_packages_crates_and_modules/restaurant/target/debug/deps/restaurant-d1726be91b1d4fc9.d: src/lib.rs
+
+src/lib.rs:
