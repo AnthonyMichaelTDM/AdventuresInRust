@@ -19,7 +19,7 @@ fn main() {
     let _slice_of_whole = &s[..];
 
 
-    let mut s = String::from("hello world");
+    let /*mut*/ s = String::from("hello world");
 
     let word = first_word(&s);
 
@@ -30,20 +30,20 @@ fn main() {
 
 
     //string literals are slices 
-    let s1 = "hello world"; //type: &str //immutable //stored on the stack
-    let s2 = String::from("hello world"); //type: string //mutable //stored in the heap
+    let _s1 = "hello world"; //type: &str //immutable //stored on the stack
+    let _s2 = String::from("hello world"); //type: string //mutable //stored in the heap
 
     
 
     let my_string = String::from("hello world");
     // first_word works on slices of `String`s
-    let word = first_word(&my_string[..]);
+    let _word = first_word(&my_string[..]);
     let my_string_literal = "hello world";
     // first_word works on slices of string literals
-    let word = first_word(&my_string_literal[..]);
+    let _word = first_word(&my_string_literal[..]);
     // Because string literals *are* string slices already,
     // this works too, without the slice syntax!
-    let word = first_word(my_string_literal);
+    let _word = first_word(my_string_literal);
 
 
     //you can also take slices of arrays

@@ -4,7 +4,7 @@ A struct’s name should describe the significance of the pieces of data being g
 Then, inside curly brackets, we define the names and types of the pieces of data, which we call fields. 
 For example, Listing 5-1 shows a struct that stores information about a user account.*/
 struct User {
-    username: String,
+    _username: String,
     email: String,
     sign_in_count: u64,
     active: bool,
@@ -30,16 +30,16 @@ fn main() {
     
     //creating instances from other instances
     //long and tedious
-    let user2 = User {
+    let _user2 = User {
         email: String::from("another@example.com"),
-        username: String::from("anotherusername567"),
+        _username: String::from("anotherusername567"),
         active: user1.active,
         sign_in_count: user1.sign_in_count,
     };
     //using struct update syntax
-    let user2 = User {
+    let _user2 = User {
         email: String::from("another@example.com"),
-        username: String::from("anotherusername567"),
+        _username: String::from("anotherusername567"),
         ..user1 //The syntax .. specifies that the remaining fields not explicitly set should have the same value as the fields in the given instance.
     };
 
@@ -50,8 +50,8 @@ fn main() {
     and naming each field as in a regular struct would be verbose or redundant.*/
     struct Color(i32, i32, i32);
     struct Point(i32, i32, i32);
-    let black = Color(0, 0, 0);
-    let origin = Point(0, 0, 0);
+    let _black = Color(0, 0, 0);
+    let _origin = Point(0, 0, 0);
     /*Note that the black and origin values are different types, 
     because they’re instances of different tuple structs. 
     Each struct you define is its own type, even though the fields within the struct have the same types. 
@@ -74,19 +74,19 @@ fn main() {
 /*As with any expression, we can construct a new instance of the struct as the last expression
 in the function body to implicitly return that new instance.*/
 //long and tedious
-fn build_user(email: String, username: String) -> User {
+fn _build_user(email: String, username: String) -> User {
     User {
         email: email,
-        username: username,
+        _username: username,
         active: true,
         sign_in_count: 1,
     }
 }
 //Using the Field Init Shorthand when Variables and Fields Have the Same Name
-fn build_user_short(email: String, username: String) -> User {
+fn build_user_short(email: String, _username: String) -> User {
     User {
         email,
-        username,
+        _username,
         active: true,
         sign_in_count: 1,
     }
