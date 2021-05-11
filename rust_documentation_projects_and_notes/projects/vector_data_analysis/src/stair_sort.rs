@@ -27,6 +27,7 @@ impl VectorInfo {
                 self.min = *i;
             }
         }
+        self.base_vector.clear();
         return (self.min, self.max);
     }
     //generate scaled array
@@ -44,7 +45,7 @@ struct Bins {
 }
 impl Bins {
     //constructor
-    fn init(bin_count: usize, v: &VectorInfo) -> Bins {
+    fn init(bin_count: usize, v: &mut VectorInfo) -> Bins {
         let mut maxes: Vec<usize> = Vec::new();
         for i in 0..=(bin_count-1) {
             maxes.push( (v.max * i) / bin_count);
@@ -66,12 +67,15 @@ impl Bins {
                     }
                     stair_bins[best_bin].push(*i);
                 }
+                v.scaled_vector.clear();
+                v.base_vector.clear();
+                v.sorted_vector.clear();
                 stair_bins
             },
         }
     }
 
-    fn sort_bins(&mut self) {
+    fn sort_bins(&mut self, v: &mut VectorInfo) {
         //go through the bins
         for bin in &mut self.bins {
             //find the min and max values of the bin
@@ -88,8 +92,8 @@ impl Bins {
             let range: usize = bin_end_value - bin_start_value + 1;
 
             //2 auxillary vectors
-            let mut count_arr: Vec<usize> = Vec::new();// [0; range];
-            let mut tmp_arr: Vec<usize>   = Vec::new();// [0; bin.len()];
+            let mut count_arr: Vec<usize> = Vec::new();
+            let mut tmp_arr: Vec<usize>   = Vec::new();
             //populate the auxillary vectors
             for _i in 0..range {count_arr.push(0)};
             for _i in 0..bin.len() {tmp_arr.push(0)};
@@ -105,8 +109,11 @@ impl Bins {
                 count_arr[bin_val - bin_start_value] -= 1;
             }
 
+            //build sorted array
+            for i in 0..tmp_arr.len() {v.sorted_vector.push(tmp_arr[i] + v.min);}
             bin.clear();
-            for i in 0..tmp_arr.len() {bin.push(tmp_arr[i]);}
+            count_arr.clear();
+            tmp_arr.clear();
         }
     }
 }
@@ -124,22 +131,10 @@ pub fn run(v: Vec<usize>, mut stair: usize) -> Vec<usize> {
     vector.max -= vector.min;
 
     //generate the bins
-    let mut bins = Bins::init(stair, &vector);
+    let mut bins = Bins::init(stair, &mut vector);
 
     //sort the bins
-    bins.sort_bins();
-
-    //apply sorted bins to vector.sorted_vector and, un scale the vector, and return
-    vector.sorted_vector.clear();
-    for bin in bins.bins {
-        for i in bin {
-            vector.sorted_vector.push(i);
-        }
-    }
-
-    for i in 0..vector.length {
-        vector.sorted_vector[i] += vector.min;
-    }
+    bins.sort_bins(&mut vector);
     
     return vector.sorted_vector.clone();
 }
