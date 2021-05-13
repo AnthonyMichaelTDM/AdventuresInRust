@@ -1,0 +1,11 @@
+/home/ruby/projects/AdventuresInRust/rust_documentation_projects_and_notes/projects/vector_data_analysis/target/release/deps/ppv_lite86-6d65781791a3d15c.rmeta: /home/ruby/.cargo/registry/src/github.com-1ecc6299db9ec823/ppv-lite86-0.2.10/src/lib.rs /home/ruby/.cargo/registry/src/github.com-1ecc6299db9ec823/ppv-lite86-0.2.10/src/soft.rs /home/ruby/.cargo/registry/src/github.com-1ecc6299db9ec823/ppv-lite86-0.2.10/src/types.rs /home/ruby/.cargo/registry/src/github.com-1ecc6299db9ec823/ppv-lite86-0.2.10/src/x86_64/mod.rs /home/ruby/.cargo/registry/src/github.com-1ecc6299db9ec823/ppv-lite86-0.2.10/src/x86_64/sse2.rs
+
+/home/ruby/projects/AdventuresInRust/rust_documentation_projects_and_notes/projects/vector_data_analysis/target/release/deps/libppv_lite86-6d65781791a3d15c.rlib: /home/ruby/.cargo/registry/src/github.com-1ecc6299db9ec823/ppv-lite86-0.2.10/src/lib.rs /home/ruby/.cargo/registry/src/github.com-1ecc6299db9ec823/ppv-lite86-0.2.10/src/soft.rs /home/ruby/.cargo/registry/src/github.com-1ecc6299db9ec823/ppv-lite86-0.2.10/src/types.rs /home/ruby/.cargo/registry/src/github.com-1ecc6299db9ec823/ppv-lite86-0.2.10/src/x86_64/mod.rs /home/ruby/.cargo/registry/src/github.com-1ecc6299db9ec823/ppv-lite86-0.2.10/src/x86_64/sse2.rs
+
+/home/ruby/projects/AdventuresInRust/rust_documentation_projects_and_notes/projects/vector_data_analysis/target/release/deps/ppv_lite86-6d65781791a3d15c.d: /home/ruby/.cargo/registry/src/github.com-1ecc6299db9ec823/ppv-lite86-0.2.10/src/lib.rs /home/ruby/.cargo/registry/src/github.com-1ecc6299db9ec823/ppv-lite86-0.2.10/src/soft.rs /home/ruby/.cargo/registry/src/github.com-1ecc6299db9ec823/ppv-lite86-0.2.10/src/types.rs /home/ruby/.cargo/registry/src/github.com-1ecc6299db9ec823/ppv-lite86-0.2.10/src/x86_64/mod.rs /home/ruby/.cargo/registry/src/github.com-1ecc6299db9ec823/ppv-lite86-0.2.10/src/x86_64/sse2.rs
+
+/home/ruby/.cargo/registry/src/github.com-1ecc6299db9ec823/ppv-lite86-0.2.10/src/lib.rs:
+/home/ruby/.cargo/registry/src/github.com-1ecc6299db9ec823/ppv-lite86-0.2.10/src/soft.rs:
+/home/ruby/.cargo/registry/src/github.com-1ecc6299db9ec823/ppv-lite86-0.2.10/src/types.rs:
+/home/ruby/.cargo/registry/src/github.com-1ecc6299db9ec823/ppv-lite86-0.2.10/src/x86_64/mod.rs:
+/home/ruby/.cargo/registry/src/github.com-1ecc6299db9ec823/ppv-lite86-0.2.10/src/x86_64/sse2.rs:

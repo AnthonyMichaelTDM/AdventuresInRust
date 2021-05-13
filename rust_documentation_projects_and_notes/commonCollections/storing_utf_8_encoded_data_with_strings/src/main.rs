@@ -13,18 +13,7 @@ fn main() {
     let _s = "initial contents".to_string();
 
     //Remember that strings are UTF-8 encoded, so we can include any properly encoded data in them
-    let mut vs: Vec<String> = Vec::new();
-    vs.push(String::from("السلام عليكم"));
-    vs.push(String::from("Dobrý den"));
-    vs.push(String::from("Hello"));
-    vs.push(String::from("שָׁלוֹם"));
-    vs.push(String::from("नमस्ते"));
-    vs.push(String::from("こんにちは"));
-    vs.push(String::from("안녕하세요"));
-    vs.push(String::from("你好"));
-    vs.push(String::from("Olá"));
-    vs.push(String::from("Здравствуйте"));
-    vs.push(String::from("Hola"));
+    let vs: Vec<String> = vec!(String::from("السلام عليكم"),String::from("Dobrý den"),String::from("Hello"),String::from("שָׁלוֹם"),String::from("नमस्ते"),String::from("こんにちは"),String::from("안녕하세요"),String::from("你好"),String::from("Hola"));
     for token in vs {
         println!("{}", token);
     }
@@ -102,14 +91,12 @@ fn main() {
     //there are crates on crates.io if this functionality is needed.
 
     //therefore, a safe way to slice characters from a string is as follows
-    fn slice(input: &str, start_index: u32, end_index: u32) -> String {
-        let mut i = 0;
+    fn slice(input: &str, start_index: usize, end_index: usize) -> String {
         let mut output = String::new();
-        for token in input.chars() {
+        for (i, token) in input.chars().enumerate() {
             if i >= start_index && i < end_index { output.push(token); } else if i >= end_index { break }
-            i += 1;
         }
-        return format!("{}", output);
+        output.to_string()
     }
     let s = slice(hello, 1, 4);
     println!("{}", s);
