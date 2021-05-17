@@ -1,0 +1,5 @@
+/home/ruby/projects/AdventuresInRust/rust_documentation_projects_and_notes/12AnIoProjectMakingACommandLineProgram/environment_variables/target/rls/debug/deps/environment_variables-c5999596b74fd6ab.rmeta: src/lib.rs
+
+/home/ruby/projects/AdventuresInRust/rust_documentation_projects_and_notes/12AnIoProjectMakingACommandLineProgram/environment_variables/target/rls/debug/deps/environment_variables-c5999596b74fd6ab.d: src/lib.rs
+
+src/lib.rs:

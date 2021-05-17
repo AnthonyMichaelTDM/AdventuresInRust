@@ -1,0 +1,1 @@
+/home/ruby/projects/AdventuresInRust/rust_documentation_projects_and_notes/12AnIoProjectMakingACommandLineProgram/reading_from_file/target/debug/reading_from_file: /home/ruby/projects/AdventuresInRust/rust_documentation_projects_and_notes/12AnIoProjectMakingACommandLineProgram/reading_from_file/src/main.rs
