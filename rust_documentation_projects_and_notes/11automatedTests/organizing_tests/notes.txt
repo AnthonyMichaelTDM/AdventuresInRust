@@ -1,0 +1,85 @@
+# Test Organization
+
+## tests come in two main varieties: unit test, and integrations tests
+Unit tests are small and more focused, testing one module in isolation at a time, and can test private interfaces. 
+
+Integration tests are entirely external to your library and use your code in the same way any other external code would, 
+using only the public interface and potentially exercising multiple modules per test.
+
+## Unit tests
+
+The purpose of unit tests is to test each unit of code in isolation from the rest of the code to quickly pinpoint 
+where code is and isn’t working as expected. 
+You’ll put unit tests in the src directory in each file with the code that they’re testing. 
+The convention is to create a module named tests in each file to contain the test functions and to annotate the module with cfg(test).
+
+SEE: /src/lib.rs for examples
+
+### The Tests Module and #[cfg(test)]
+The #[cfg(test)] annotation on the tests module tells Rust to compile and run the test code only when you run cargo test, 
+not when you run cargo build.
+because integration tests go in a different directory, they don’t need the #[cfg(test)] annotation. 
+However, because unit tests go in the same files as the code, 
+you’ll use #[cfg(test)] to specify that they shouldn’t be included in the compiled result.
+
+### testing private functions
+rusts privacy rules allow the testing of private functions, as is happening is lib.rs, but only as unit tests
+
+## Integration Tests
+
+In Rust, integration tests are entirely external to your library. They use your library in the same way any other code would, 
+which means they can only call functions that are part of your library’s public API. 
+Their purpose is to test whether many parts of your library work together correctly. 
+Units of code that work correctly on their own could have problems when integrated, 
+so test coverage of the integrated code is important as well. 
+
+To create integration tests, you first need a tests directory.
+
+SEE: /test/integration_test.rs for an example
+
+### the tests directory
+We create a tests directory at the top level of our project directory, next to src. 
+Cargo knows to look for integration test files in this directory. 
+We can then make as many test files as we want to in this directory, and Cargo will compile each of the files as an individual crate
+//use project_name;
+
+### Submodules in Integration Tests
+As you add more integration tests, you might want to make more than one file in the tests directory to help organize them; 
+for example, you can group the test functions by the functionality they’re testing. 
+As mentioned earlier, each file in the tests directory is compiled as its own separate crate.
+
+Treating each integration test file as its own crate is useful to create separate scopes that 
+are more like the way end users will be using your crate. 
+However, this means files in the tests directory don’t share the same behavior as files in src do, 
+as you learned in Chapter 7 regarding how to separate code into modules and files.
+
+The different behavior of files in the tests directory is most noticeable when you have a set of helper 
+functions that would be useful in multiple integration test files and you try to follow the steps in the 
+“Separating Modules into Different Files” section of Chapter 7 to extract them into a common module
+
+rust treats every file in the tests/ directory as tests, so to create a set of help functions or whatnot, 
+you need to create a subdirectory with a mod.rs file in it,
+SEE: /tests/commom/mod.rs for an example
+
+### Integration Tests for Binary Crates
+
+If our project is a binary crate that only contains a src/main.rs file and doesn’t have a src/lib.rs file, 
+we can’t create integration tests in the tests directory and bring functions 
+defined in the src/main.rs file into scope with a use statement. 
+Only library crates expose functions that other crates can use; binary crates are meant to be run on their own.
+
+This is one of the reasons Rust projects that provide a binary have a straightforward src/main.rs file that calls logic
+that lives in the src/lib.rs file. Using that structure, 
+integration tests can test the library crate with use to make the important functionality available. 
+If the important functionality works, the small amount of code in the src/main.rs file will work as well, 
+and that small amount of code doesn’t need to be tested.
+
+
+##Summary
+
+Rust’s testing features provide a way to specify how code should function to ensure it continues to work as you expect, 
+even as you make changes. Unit tests exercise different parts of a library separately and can test private implementation details. 
+Integration tests check that many parts of the library work together correctly, 
+and they use the library’s public API to test the code in the same way external code will use it. 
+Even though Rust’s type system and ownership rules help prevent some kinds of bugs, 
+tests are still important to reduce logic bugs having to do with how your code is expected to behave.
