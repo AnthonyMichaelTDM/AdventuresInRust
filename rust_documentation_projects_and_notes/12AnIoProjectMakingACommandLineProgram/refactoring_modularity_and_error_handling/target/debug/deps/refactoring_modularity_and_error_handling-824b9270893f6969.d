@@ -1,6 +1,0 @@
-/home/ruby/projects/AdventuresInRust/rust_documentation_projects_and_notes/12AnIoProjectMakingACommandLineProgram/refactoring_modularity_and_error_handling/target/debug/deps/refactoring_modularity_and_error_handling-824b9270893f6969: src/main.rs src/lib.rs
-
-/home/ruby/projects/AdventuresInRust/rust_documentation_projects_and_notes/12AnIoProjectMakingACommandLineProgram/refactoring_modularity_and_error_handling/target/debug/deps/refactoring_modularity_and_error_handling-824b9270893f6969.d: src/main.rs src/lib.rs
-
-src/main.rs:
-src/lib.rs:

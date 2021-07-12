@@ -1,5 +1,0 @@
-/home/ruby/projects/AdventuresInRust/rust_documentation_projects_and_notes/Common_Collections/storing_lists_of_values_with_vectors/target/debug/deps/storing_lists_of_values_with_vectors-6b68e1fda13cea66: src/main.rs
-
-/home/ruby/projects/AdventuresInRust/rust_documentation_projects_and_notes/Common_Collections/storing_lists_of_values_with_vectors/target/debug/deps/storing_lists_of_values_with_vectors-6b68e1fda13cea66.d: src/main.rs
-
-src/main.rs:

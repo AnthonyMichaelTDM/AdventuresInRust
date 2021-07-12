@@ -1,1 +1,0 @@
-/home/ruby/projects/AdventuresInRust/rust_documentation_projects_and_notes/12AnIoProjectMakingACommandLineProgram/environment_variables/target/debug/libenvironment_variables.rlib: /home/ruby/projects/AdventuresInRust/rust_documentation_projects_and_notes/12AnIoProjectMakingACommandLineProgram/environment_variables/src/lib.rs

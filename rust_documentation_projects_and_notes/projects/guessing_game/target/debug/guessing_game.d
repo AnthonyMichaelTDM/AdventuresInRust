@@ -1,1 +1,0 @@
-/home/ruby/projects/AdventuresInRust/rust_documentation_projects_and_notes/guessing_game/target/debug/guessing_game: /home/ruby/projects/AdventuresInRust/rust_documentation_projects_and_notes/guessing_game/src/main.rs

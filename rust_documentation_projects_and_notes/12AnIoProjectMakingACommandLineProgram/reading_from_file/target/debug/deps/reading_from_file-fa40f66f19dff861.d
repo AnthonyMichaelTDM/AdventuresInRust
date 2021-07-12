@@ -1,5 +1,0 @@
-/home/ruby/projects/AdventuresInRust/rust_documentation_projects_and_notes/12AnIoProjectMakingACommandLineProgram/reading_from_file/target/debug/deps/reading_from_file-fa40f66f19dff861: src/main.rs
-
-/home/ruby/projects/AdventuresInRust/rust_documentation_projects_and_notes/12AnIoProjectMakingACommandLineProgram/reading_from_file/target/debug/deps/reading_from_file-fa40f66f19dff861.d: src/main.rs
-
-src/main.rs:
