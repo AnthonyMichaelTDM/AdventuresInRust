@@ -1,1 +1,0 @@
-/home/ruby/projects/AdventuresInRust/rust_documentation_projects_and_notes/13iteratorsAndClosures/closures/target/debug/closures: /home/ruby/projects/AdventuresInRust/rust_documentation_projects_and_notes/13iteratorsAndClosures/closures/src/main.rs

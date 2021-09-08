@@ -1,7 +1,0 @@
-/home/ruby/projects/AdventuresInRust/rust_documentation_projects_and_notes/12AnIoProjectMakingACommandLineProgram/writing_to_standard_error/target/debug/deps/writing_to_standard_error-9224c296649e4050.rmeta: src/lib.rs
-
-/home/ruby/projects/AdventuresInRust/rust_documentation_projects_and_notes/12AnIoProjectMakingACommandLineProgram/writing_to_standard_error/target/debug/deps/libwriting_to_standard_error-9224c296649e4050.rlib: src/lib.rs
-
-/home/ruby/projects/AdventuresInRust/rust_documentation_projects_and_notes/12AnIoProjectMakingACommandLineProgram/writing_to_standard_error/target/debug/deps/writing_to_standard_error-9224c296649e4050.d: src/lib.rs
-
-src/lib.rs:

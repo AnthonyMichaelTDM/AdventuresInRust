@@ -1,5 +1,0 @@
-/home/ruby/projects/AdventuresInRust/rust_documentation_projects_and_notes/Common_Collections/storing_utf-8_encoded_data_with_strings/target/debug/deps/storing_UTF_8_encoded_data_with_strings-4cd9549db2532d08: src/main.rs
-
-/home/ruby/projects/AdventuresInRust/rust_documentation_projects_and_notes/Common_Collections/storing_utf-8_encoded_data_with_strings/target/debug/deps/storing_UTF_8_encoded_data_with_strings-4cd9549db2532d08.d: src/main.rs
-
-src/main.rs:

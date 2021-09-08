@@ -1,5 +1,0 @@
-/home/ruby/projects/AdventuresInRust/rust_documentation_projects_and_notes/commonProgrammingConcepts/variables_and_mutability/target/debug/deps/variables_and_mutability-98546d1858f55a13: src/main.rs
-
-/home/ruby/projects/AdventuresInRust/rust_documentation_projects_and_notes/commonProgrammingConcepts/variables_and_mutability/target/debug/deps/variables_and_mutability-98546d1858f55a13.d: src/main.rs
-
-src/main.rs:

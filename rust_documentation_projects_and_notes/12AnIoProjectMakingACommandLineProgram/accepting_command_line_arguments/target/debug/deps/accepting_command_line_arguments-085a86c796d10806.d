@@ -1,5 +1,0 @@
-/home/ruby/projects/AdventuresInRust/rust_documentation_projects_and_notes/12AnIoProjectMakingACommandLineProgram/accepting_command_line_arguments/target/debug/deps/accepting_command_line_arguments-085a86c796d10806: src/main.rs
-
-/home/ruby/projects/AdventuresInRust/rust_documentation_projects_and_notes/12AnIoProjectMakingACommandLineProgram/accepting_command_line_arguments/target/debug/deps/accepting_command_line_arguments-085a86c796d10806.d: src/main.rs
-
-src/main.rs:

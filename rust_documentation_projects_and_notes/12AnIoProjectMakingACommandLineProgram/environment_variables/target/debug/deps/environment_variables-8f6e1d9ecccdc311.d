@@ -1,7 +1,0 @@
-/home/ruby/projects/AdventuresInRust/rust_documentation_projects_and_notes/12AnIoProjectMakingACommandLineProgram/environment_variables/target/debug/deps/environment_variables-8f6e1d9ecccdc311.rmeta: src/lib.rs
-
-/home/ruby/projects/AdventuresInRust/rust_documentation_projects_and_notes/12AnIoProjectMakingACommandLineProgram/environment_variables/target/debug/deps/libenvironment_variables-8f6e1d9ecccdc311.rlib: src/lib.rs
-
-/home/ruby/projects/AdventuresInRust/rust_documentation_projects_and_notes/12AnIoProjectMakingACommandLineProgram/environment_variables/target/debug/deps/environment_variables-8f6e1d9ecccdc311.d: src/lib.rs
-
-src/lib.rs:

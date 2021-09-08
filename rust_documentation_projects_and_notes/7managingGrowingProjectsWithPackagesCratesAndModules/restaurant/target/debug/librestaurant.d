@@ -1,1 +1,0 @@
-/home/ruby/projects/AdventuresInRust/rust_documentation_projects_and_notes/managing_growing_projects_with_packages_crates_and_modules/restaurant/target/debug/librestaurant.rlib: /home/ruby/projects/AdventuresInRust/rust_documentation_projects_and_notes/managing_growing_projects_with_packages_crates_and_modules/restaurant/src/lib.rs
