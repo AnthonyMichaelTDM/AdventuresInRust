@@ -19,7 +19,7 @@
         //closure code
     }; //note the semicolon, it's needed
  * 
- * the syntax for a closue is very similar to that of functions
+ * the syntax for a closure is very similar to that of functions
     fn  add_one_v1   (x: u32) -> u32 { x + 1 }      The first line shows a function definition, 
     let add_one_v2 = |x: u32| -> u32 { x + 1 };     and the second line shows a fully annotated closure definition. 
     let add_one_v3 = |x|             { x + 1 };     The third line removes the type annotations from the closure definition, 
